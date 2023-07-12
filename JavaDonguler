@@ -1,0 +1,32 @@
+package giris;
+import java.sql.SQLOutput;
+import java.util.Scanner;
+public class class3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Sayı giriniz: ");
+        int a = input.nextInt();
+        int i = 0;
+        while (i<a){
+            i++;
+            if (i % 3 == 0 && i %4 ==0){
+                System.out.println(i);
+
+
+            }
+
+        }
+
+
+
+        }
+    }
+
+
+
+
+
+
+
+
+
